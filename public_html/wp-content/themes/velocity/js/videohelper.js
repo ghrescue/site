@@ -1,0 +1,1 @@
+videojs.options.flash.swf = velocity_vars.jspath+"/videojs/video-js.swf";

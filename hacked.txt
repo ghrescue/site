@@ -1,0 +1,25 @@
+
+2014site ?
+plugins_old ?
+dkiue.html
+page.php
+wp-blogger.php
+wp-content/plugins/envato-wordpress-toolkit-master/assets/plugin24.php ?
+wp-content/plugins/fb-last-posts/data/gallery.php
+wp-content/plugins/fb-last-posts/fb/lib.php
+
+wp-content/plugins/wp-symposium/server/php/AeRAryzPvJKBwu.php? + Others
+
+wp-content/plugins/wp-symposium/server/php/wp-century.php ??
+
+wp-content/plugins/wp-symposium/server/php/wp-drastic (1).php
+wp-content/plugins/wp-symposium/server/php/wp-drastic.php
+wp-content/plugins/wp-symposium/server/php/WPSymposiumHandler (1).php
+wp-content/plugins/wp-symposium/server/php/WPSymposiumHandler.php
+wp-content/plugins/wp-symposium/server/php/WPSymposiumMenu.php
+wp-content/themes/twentyfourteen/page-templates/sql.php
+wp-content/themes/twentytwelve/page-templates/user60.php
+wp-includes/js/tinymce/wp-tinymce.js.gz ?
+
+wp-includes/wp-century.php
+wp-includes/wp-drastic.php

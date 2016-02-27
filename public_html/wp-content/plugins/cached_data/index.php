@@ -1,0 +1,1 @@
+No cache rules declared in config files.

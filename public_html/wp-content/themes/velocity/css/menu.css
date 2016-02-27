@@ -1,0 +1,21 @@
+.menu-item-depth-1 .menu-item-settings .field-custom.megamenu,
+.menu-item-depth-2 .menu-item-settings .field-custom.megamenu,
+.menu-item-depth-3 .menu-item-settings .field-custom.megamenu,
+.menu-item-depth-4 .menu-item-settings .field-custom.megamenu,
+.menu-item-depth-5 .menu-item-settings .field-custom.megamenu, 
+.menu-item-depth-1 .menu-item-settings .field-widgetarea.megamenu,
+.menu-item-depth-2 .menu-item-settings .field-widgetarea.megamenu,
+.menu-item-depth-3 .menu-item-settings .field-widgetarea.megamenu,
+.menu-item-depth-4 .menu-item-settings .field-widgetarea.megamenu,
+.menu-item-depth-5 .menu-item-settings .field-widgetarea.megamenu
+{ display:none }
+
+.menu-item-depth-0 .columnmegamenu, 
+.menu-item-depth-0 .columntitlemegamenu, 
+.menu-item-depth-0 .columnmegamenuwidth,
+.menu-item-depth-0 .widgetareashowactivate,
+.menu-item-depth-0 .widgetarea
+{ display:none }
+
+/*.columnmegamenu 
+{ display:none; } */

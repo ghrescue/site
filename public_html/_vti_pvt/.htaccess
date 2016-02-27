@@ -1,0 +1,11 @@
+# -FrontPage-
+
+Options None
+
+<Limit GET POST PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName www.greyhoundrescue-yorkshire.co.uk
+AuthUserFile /home/ghrescue/public_html/_vti_pvt/service.pwd
+AuthGroupFile /home/ghrescue/public_html/_vti_pvt/service.grp

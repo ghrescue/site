@@ -1,0 +1,31 @@
+body.toplevel_page_velocity_theme_options .form-table, body.appearance_page_velocity_theme_options .form-table, body.velocity-options_page_velocity_theme_layout_options .form-table {
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	margin-top:0;
+}
+
+body.toplevel_page_velocity_theme_options .form-table th , body.appearance_page_velocity_theme_options .form-table th , body.velocity-options_page_velocity_theme_layout_options .form-table th{
+	padding-left: 10px;
+}
+
+body.toplevel_page_velocity_theme_options h3 , body.appearance_page_velocity_theme_options h3 , body.velocity-options_page_velocity_theme_layout_options h3{
+	background: #e4e4e4;
+	border-top: 1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	margin-top: 10px;
+	margin-bottom: 0;
+	line-height: 35px;
+	padding-left: 10px;
+}
+
+
+#toplevel_page_velocity_theme_options .wp-menu-image:before {
+content: '\f311'!important;
+}
+#toplevel_page_damojoPortfolio_theme_options  .wp-menu-image:before {
+    content: '\f233'!important;
+}

@@ -1,0 +1,115 @@
+.tp-caption.velocity_white_large_transparent {
+font-size:50px;
+line-height:50px;
+font-weight:800;
+font-family:"Open Sans";
+color:rgb(255, 255, 255);
+text-decoration:none;
+background-color:transparent;
+padding:20px;
+text-shadow:rgba(0, 0, 0, 0.0980392) 0px 1px 3px;
+margin:0px;
+letter-spacing:0px;
+border-width:0px;
+border-color:rgb(255, 255, 255);
+border-style:none;
+}
+
+.tp-caption.velocity_white_large_light {
+font-size:35px;
+line-height:35px;
+font-weight:300;
+font-family:"Open Sans";
+color:#ffffff;
+text-decoration:none;
+background-color:transparent;
+text-shadow:none;
+margin:0px;
+border-width:0px;
+border-color:rgb(255, 255, 255);
+border-style:none;
+}
+
+.tp-caption.velocity_white_small {
+font-size:18px;
+line-height:28px;
+font-weight:400;
+font-family:"Open Sans";
+color:rgba(255, 255, 255, 0.75);
+text-decoration:none;
+background-color:transparent;
+text-shadow:none;
+margin:0px;
+padding:20px 0px 0px 0px;
+border-width:1px 0px 0px 0px;
+border-color:rgba(255, 255, 255, 0.247059);
+border-style:solid;
+}
+
+.tp-caption.velocity_white_large_black50 {
+font-size:50px;
+line-height:50px;
+font-weight:800;
+font-family:"Open Sans";
+color:rgb(255, 255, 255);
+text-decoration:none;
+background-color:rgb(0, 0, 0);
+background-color:rgba(0, 0, 0, 0.498039);
+padding:20px;
+text-shadow:rgba(0, 0, 0, 0.0980392) 0px 1px 3px;
+margin:0px;
+letter-spacing:0px;
+border-width:0px;
+border-color:rgb(255, 255, 255);
+border-style:none;
+}
+
+.tp-caption.velocity_white_medium_blue50 {
+font-size:30px;
+line-height:36px;
+font-weight:300;
+font-family:"Open Sans";
+color:rgb(255, 255, 255);
+text-decoration:none;
+background-color:rgb(19, 192, 223);
+background-color:rgba(19, 192, 223, 0.498039);
+padding:6px 10px;
+text-shadow:none;
+margin:0px;
+border-width:0px;
+border-color:rgb(255, 255, 255);
+border-style:none;
+}
+
+.tp-caption.velocity_white_large_black {
+font-size:30px;
+line-height:30px;
+font-weight:300;
+font-family:"Open Sans";
+color:rgb(255, 255, 255);
+text-decoration:none;
+background-color:rgb(0, 0, 0);
+padding:15px;
+text-shadow:none;
+margin:0px;
+border-width:0px;
+border-color:rgb(255, 255, 255);
+border-style:none;
+}
+
+.tp-caption.velocity_white_large_blue {
+font-size:30px;
+line-height:30px;
+font-weight:300;
+font-family:"Open Sans";
+color:rgb(255, 255, 255);
+text-decoration:none;
+background-color:rgb(19, 192, 223);
+padding:15px;
+text-shadow:none;
+margin:0px;
+border-width:0px;
+border-color:rgb(255, 255, 255);
+border-style:none;
+}
+

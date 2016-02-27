@@ -1,0 +1,11 @@
+tr.side  td {
+	white-space: nowrap;
+}
+
+tr.side input[type=text]{
+	width: 60%;
+}
+
+tr.side.superwide input[type=text]{
+	width: 95%;
+}

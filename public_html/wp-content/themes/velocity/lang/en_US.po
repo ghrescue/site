@@ -1,0 +1,682 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Longwave - Responsive Retina Ready WordPress Theme v1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-14 14:58+0100\n"
+"PO-Revision-Date: 2013-03-13 16:16:17+0000\n"
+"Last-Translator: Damojo <info@damojothemes>\n"
+"Language-Team: Damojo <info@damojothemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: E:/WORK/HTML&WP/ApexWP\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: E:/WORK/HTML&WP/ApexWP\n"
+"X-Textdomain-Support: yes"
+
+#: search.php:13
+#@ tb_longwave
+msgid "Read More"
+msgstr "Read More"
+
+#: comments.php:39
+#@ tb_longwave
+msgid "Website"
+msgstr "Website"
+
+#: comments.php:9
+#@ tb_longwave
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "This post is password protected. Enter the password to view any comments."
+
+#: single.php:242
+#@ tb_longwave
+msgid "Comments"
+msgstr "Comments"
+
+#: comments.php:24
+#@ tb_longwave
+msgid "Older Comments "
+msgstr "Older Comments "
+
+#: comments.php:25
+#@ tb_longwave
+msgid "Newer Comments"
+msgstr "Newer Comments"
+
+#: functions/theme_post_comments.php:34
+#@ tb_longwave
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: functions/theme_post_comments.php:34
+#@ tb_longwave
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: comments.php:37
+#@ tb_longwave
+msgid "Name"
+msgstr "Name"
+
+#: comments.php:38
+#@ tb_longwave
+msgid "Email"
+msgstr "Email"
+
+#: functions/theme_functions.php:198
+#@ tb_longwave
+msgid "Reply"
+msgstr "Reply"
+
+#: functions/theme_functions.php:199
+#@ tb_longwave
+msgid "Log in to Reply"
+msgstr "Log in to Reply"
+
+#: search.php:14
+#@ tb_longwave
+msgid "Share This"
+msgstr "Share This"
+
+#: archive.php:25
+#: category.php:25
+#: search.php:15
+#@ tb_longwave
+msgid "Archive"
+msgstr "Archive"
+
+#: archive.php:27
+#: category.php:27
+#: search.php:16
+#@ tb_longwave
+msgid "Tag Archive"
+msgstr "Tag Archive"
+
+#: archive.php:21
+#: category.php:21
+#: search.php:17
+#@ tb_longwave
+msgid "Category"
+msgstr "Category"
+
+#: single.php:242
+#@ tb_longwave
+msgid "0 Comments"
+msgstr ""
+
+#: archive.php:163
+#: category.php:163
+#: comments.php:15
+#: functions/theme_shortcodes.php:440
+#: index.php:178
+#: single.php:147
+#: single.php:242
+#@ tb_longwave
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:15
+#@ tb_longwave
+msgid "% Comments"
+msgstr ""
+
+#: functions/theme_breadcrumbs.php:23
+#@ tb_longwave
+msgid "Portfolio"
+msgstr ""
+
+#: functions/theme_functions.php:111
+#, php-format
+#@ tb_longwave
+msgid "View all posts in %s"
+msgstr ""
+
+#: functions/theme_functions.php:389
+#@ tb_longwave
+msgid "type and hit enter"
+msgstr ""
+
+#: archive.php:163
+#: category.php:163
+#: functions/theme_shortcodes.php:440
+#: index.php:178
+#: single.php:147
+#@ tb_longwave
+msgid " Comments"
+msgstr ""
+
+#: functions/theme_shortcodes.php:520
+#: functions/theme_shortcodes.php:526
+#@ tb_longwave
+msgid "All"
+msgstr ""
+
+#: search.php:37
+#@ tb_longwave
+msgid "hit for"
+msgstr ""
+
+#: search.php:37
+#@ tb_longwave
+msgid "hits for"
+msgstr ""
+
+#: search.php:53
+#@ tb_longwave
+msgid "Search"
+msgstr ""
+
+#: single-portfolio.php:40
+#@ tb_longwave
+msgid "All Items"
+msgstr ""
+
+#: archive.php:73
+#: category.php:73
+#: index.php:74
+#@ tb_longwave
+msgid " - Page "
+msgstr ""
+
+#: archive.php:178
+#: category.php:178
+#: index.php:193
+#@ tb_longwave
+msgid "Continue reading"
+msgstr ""
+
+#: comments.php:15
+#@ tb_longwave
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:42
+#@ tb_longwave
+msgid ""
+"<div class=\"clear\"></div>\n"
+"\t    <hr />Would you like to share your thoughts?"
+msgstr ""
+
+#: comments.php:44
+#@ tb_longwave
+msgid "Enter your comment here..."
+msgstr ""
+
+#: comments.php:45
+#@ tb_longwave
+msgid "Submit"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:164
+#: functions/theme_plugins.php:48
+#@ tb_longwave_plugins
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:165
+#: functions/theme_plugins.php:49
+#@ tb_longwave_plugins
+msgid "Install Plugins"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:166
+#: functions/theme_plugins.php:50
+#, php-format
+#@ tb_longwave_plugins
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:167
+#@ tb_longwave_plugins
+msgid "Something went wrong."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:168
+#: functions/theme_plugins.php:52
+#, php-format
+#@ tb_longwave
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/class-tgm-plugin-activation.php:169
+#: functions/theme_plugins.php:53
+#, php-format
+#@ tb_longwave
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/class-tgm-plugin-activation.php:170
+#: functions/theme_plugins.php:54
+#, php-format
+#@ tb_longwave
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/class-tgm-plugin-activation.php:171
+#: functions/theme_plugins.php:55
+#, php-format
+#@ tb_longwave
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/class-tgm-plugin-activation.php:172
+#: functions/theme_plugins.php:56
+#, php-format
+#@ tb_longwave
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/class-tgm-plugin-activation.php:173
+#: functions/theme_plugins.php:57
+#, php-format
+#@ tb_longwave
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/class-tgm-plugin-activation.php:174
+#: functions/theme_plugins.php:58
+#, php-format
+#@ tb_longwave
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/class-tgm-plugin-activation.php:175
+#: functions/theme_plugins.php:59
+#, php-format
+#@ tb_longwave
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/class-tgm-plugin-activation.php:176
+#: functions/theme_plugins.php:60
+#@ tb_longwave
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/class-tgm-plugin-activation.php:177
+#: functions/theme_plugins.php:61
+#@ tb_longwave
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/class-tgm-plugin-activation.php:178
+#: functions/class-tgm-plugin-activation.php:490
+#: functions/class-tgm-plugin-activation.php:502
+#: functions/class-tgm-plugin-activation.php:539
+#: functions/class-tgm-plugin-activation.php:2043
+#: functions/theme_plugins.php:62
+#@ tb_longwave_plugins
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:179
+#: functions/class-tgm-plugin-activation.php:1846
+#: functions/theme_plugins.php:63
+#@ tb_longwave_plugins
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:180
+#, php-format
+#@ tb_longwave_plugins
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:517
+#: functions/class-tgm-plugin-activation.php:2058
+#@ tb_longwave_plugins
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:545
+#, php-format
+#@ tb_longwave_plugins
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:704
+#@ tb_longwave_plugins
+msgid "Dismiss this notice"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1091
+#@ tb_longwave_plugins
+msgid "External Link"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1096
+#@ tb_longwave_plugins
+msgid "Private Repository"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1099
+#@ tb_longwave_plugins
+msgid "Pre-Packaged"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1103
+#@ tb_longwave_plugins
+msgid "WordPress Repository"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1106
+#@ tb_longwave_plugins
+msgid "Required"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1106
+#@ tb_longwave_plugins
+msgid "Recommended"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1109
+#@ tb_longwave_plugins
+msgid "Not Installed"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1111
+#@ tb_longwave_plugins
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1281
+#, php-format
+#@ tb_longwave_plugins
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1297
+#@ tb_longwave_plugins
+msgid "Plugin"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1298
+#@ tb_longwave_plugins
+msgid "Source"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1299
+#@ tb_longwave_plugins
+msgid "Type"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1300
+#@ tb_longwave_plugins
+msgid "Status"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1318
+#@ tb_longwave_plugins
+msgid "Install"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1319
+#@ tb_longwave_plugins
+msgid "Activate"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1544
+#@ tb_longwave_plugins
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/class-tgm-plugin-activation.php:1829
+#@ tb_longwave_plugins
+msgid "Install package not available."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1830
+#, php-format
+#@ tb_longwave_plugins
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1831
+#@ tb_longwave_plugins
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1832
+#@ tb_longwave_plugins
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1833
+#@ tb_longwave_plugins
+msgid "Plugin install failed."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1834
+#@ tb_longwave_plugins
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1845
+#@ tb_longwave_plugins
+msgid "Plugin activation failed."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1955
+#@ tb_longwave_plugins
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1956
+#, php-format
+#@ tb_longwave_plugins
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1956
+#: functions/class-tgm-plugin-activation.php:1965
+#@ tb_longwave_plugins
+msgid "Show Details"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1956
+#: functions/class-tgm-plugin-activation.php:1965
+#@ tb_longwave_plugins
+msgid "Hide Details"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1957
+#@ tb_longwave_plugins
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1958
+#, php-format
+#@ tb_longwave_plugins
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1962
+#@ tb_longwave_plugins
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1963
+#, php-format
+#@ tb_longwave_plugins
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1964
+#, php-format
+#@ tb_longwave_plugins
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1965
+#, php-format
+#@ tb_longwave_plugins
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1966
+#@ tb_longwave_plugins
+msgid "All installations have been completed."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1967
+#, php-format
+#@ tb_longwave_plugins
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/envato-wordpress-toolkit-library/class-envato-protected-api.php:67
+#@ envato
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: functions/envato-wordpress-toolkit-library/class-envato-protected-api.php:71
+#@ envato
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: functions/envato-wordpress-toolkit-library/class-envato-protected-api.php:96
+#@ envato
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: functions/envato-wordpress-toolkit-library/class-envato-protected-api.php:167
+#@ envato
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: functions/envato-wordpress-toolkit-library/class-envato-wordpress-theme-upgrader.php:279
+#@ envato
+msgid "Downloading upgrade package from the Envato API&#8230;"
+msgstr ""
+
+#: functions/envato-wordpress-toolkit-library/class-envato-wordpress-theme-upgrader.php:290
+#@ envato
+msgid "Downloading install package from the Envato API&#8230;"
+msgstr ""
+
+#: functions/theme_functions.php:494
+#, php-format
+#@ tb_longwave
+msgid "Use commas instead of %s to separate excluded categories."
+msgstr ""
+
+#: functions/theme_pagination.php:47
+#: functions/theme_pagination.php:115
+#@ tb_longwave
+msgid "next"
+msgstr ""
+
+#: functions/theme_pagination.php:51
+#: functions/theme_pagination.php:61
+#: functions/theme_pagination.php:119
+#: functions/theme_pagination.php:129
+#@ tb_longwave
+msgid "last"
+msgstr ""
+
+#: functions/theme_pagination.php:57
+#: functions/theme_pagination.php:125
+#@ tb_longwave
+msgid "first"
+msgstr ""
+
+#: functions/theme_pagination.php:154
+#: functions/theme_pagination.php:157
+#: functions/theme_pagination.php:160
+#: functions/theme_pagination.php:182
+#: functions/theme_pagination.php:185
+#: functions/theme_pagination.php:188
+#@ tb_longwave
+msgid "Previous Page"
+msgstr ""
+
+#: functions/theme_pagination.php:154
+#: functions/theme_pagination.php:157
+#: functions/theme_pagination.php:160
+#: functions/theme_pagination.php:182
+#: functions/theme_pagination.php:185
+#: functions/theme_pagination.php:188
+#@ tb_longwave
+msgid "Next Page"
+msgstr ""
+
+#: functions/theme_plugins.php:51
+#@ tb_longwave_plugins
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions/theme_plugins.php:64
+#, php-format
+#@ tb_longwave_plugins
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions/theme_shortcodes.php:245
+#: functions/theme_shortcodes.php:278
+#@ tb_longwave
+msgid "Tweet"
+msgstr ""
+
+#: functions/theme_shortcodes.php:248
+#: functions/theme_shortcodes.php:317
+#@ tb_longwave
+msgid "Pin It"
+msgstr ""
+
+#: functions/theme_shortcodes.php:251
+#: functions/theme_shortcodes.php:303
+#@ tb_longwave
+msgid "+1"
+msgstr ""
+
+#: functions/theme_shortcodes.php:254
+#: functions/theme_shortcodes.php:290
+#@ tb_longwave
+msgid "Like"
+msgstr ""
+
+#: single-portfolio.php:106
+#: single.php:175
+#@ tb_longwave
+msgid "Share this article:"
+msgstr ""
+
+#: single-portfolio.php:161
+#@ tb_longwave
+msgid "Related Works"
+msgstr ""
+
+#: single.php:172
+#@ tb_longwave
+msgid "Tags"
+msgstr ""
+

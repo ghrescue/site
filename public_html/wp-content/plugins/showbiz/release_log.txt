@@ -1,0 +1,272 @@
+version 1.5.5 - 06.02.2014
+
+- Feature: New Template: WooCommerce Velocity Skin 2
+
+
+version 1.5.4 - 05.02.2014
+
+- Feature: If container size smaller than 100px, the size will no change ! 
+
+
+version 1.5.3 - 24.01.2014
+
+- Feature: New Template: WooCommerce Velocity Skin
+
+
+version 1.5.2 - 17.01.2014
+
+- Feature: Two new Templates: Velocity Blog Skin, Velocity Porfolio Skin
+- Feature: Grab Open Hand, and Closed Hand added to Drag and Scroll function 
+
+- Bug Fix: Fix for Lazy Load preview image, if no image is set, no error message will appear anymore
+
+
+version 1.5.1 - 09.01.2014
+
+- Bug Fix: Fixed some situations where width and height are not inserted correctly
+- Bug Fix: Fixed FF Failure since version 1.5
+
+
+version 1.5.0 - 08.01.2014
+
+- Feature: Choose wether to use words or characters to limit the title and excerpt
+- Feature: Lazy Loading now available through Slider Settings
+- Feature: Automatic add image height="" and width="" to the image if it is not set (only if width and height are missing in markup. If one is set, nothing will happen)
+
+- Change: a new Drag and Scroll Engine for much smoother and better User Experience.
+- Change: Changed function name of aq_resize to avoid compability issues with other themes and functions
+- Change: qtranslate now works with excerpts
+
+- Bug Fix: Tipsy overlay issue fixed
+- Bug Fix: Fixed a JavaScript bug with fancybox off
+- Bug Fix: Fixed a bug where Showbiz will throw an error if Slider Revolution is not installed
+- Bug Fix: Android Drag and Scroll.
+
+
+
+version 1.4.4 - 30.12.2013
+
+- Feature: Added WPML Support
+
+
+version 1.4.3 - 18.12.2013
+
+- Feature: New Image Source Type: Custom - define own width and height for images
+- Feature: Added files so that google does not index internal files
+
+
+version 1.4.2 - 13.12.2013
+
+- Bug Fix: Compatibility Issue between Slider Revolution Older Version and Showbiz 1.4.1+
+
+
+version 1.4.1 - 13.12.2013
+
+- Bug Fix: Swipe Engine on Android Google Chrome Browser did not worked well. Changed against Hammer
+- Bug Fix: Preview mode fixed
+
+
+version 1.4 - 28.11.2013
+
+- Feature: Force Full Width in case the Slider is added in the boxed container
+- Change: Full Backend layout has been improved
+- Feature: Added Image Ratio Settings, to cut images on same format
+- Feature: Added Image Source Type Select Box for using lower image qualities
+- Feature: Added Limit The Title Length
+- Feature: Show only Entries with Images
+- Feature: Random Order of Gallery images
+- Feature: Left/Right Auto Scroll 
+- Feature: Load jQuery in Footer Optional
+- Feature: Load Plugin only if Page use it (optional)
+- Bug Fix: Amount of Words in Excerpt Limitation bug 
+- Bug Fix: Meta Key issues
+
+
+version 1.3.4 - 19.11.2013
+
+- feature: choose to use the from WordPress created small/medium/full/original image from the chosen image
+
+version 1.3.3 - 31.10.2013
+
+- fixed IE8 Scroll Bug
+
+version 1.3.2 - 30-09.2013
+
+- fixed bug with [showbiz_meta:key] that it was found only once.
+
+version 1.3.1 - 25-09.2013
+- Bug Fix: OverScroll Append Child and Double Body Creation
+
+version 1.2 - 21.09.2013
+
+- bug fix: fixed Double <body> generation if overscroll loaded more then one time
+- change: updated jquery ui css links
+- changed Animation Engine to make transition more smoother
+- changed Carousel Calculation
+- added Easing Table to Animation:
+									Linear.easeNone,
+									Power0.easeIn  (linear),
+									Power0.easeInOut  (linear),
+									Power0.easeOut  (linear),
+									Power1.easeIn,
+									Power1.easeInOut,
+									Power1.easeOut,
+									Power2.easeIn,
+									Power2.easeInOut,
+									Power2.easeOut,
+									Power3.easeIn,
+									Power3.easeInOut,
+									Power3.easeOut,
+									Power4.easeIn,
+									Power4.easeInOut,
+									Power4.easeOut,
+									Quad.easeIn  (same as Power1.easeIn),
+									Quad.easeInOut  (same as Power1.easeInOut),
+									Quad.easeOut  (same as Power1.easeOut),
+									Cubic.easeIn  (same as Power2.easeIn),
+									Cubic.easeInOut  (same as Power2.easeInOut),
+									Cubic.easeOut  (same as Power2.easeOut),
+									Quart.easeIn  (same as Power3.easeIn),
+									Quart.easeInOut  (same as Power3.easeInOut),
+									Quart.easeOut  (same as Power3.easeOut),
+									Quint.easeIn  (same as Power4.easeIn),
+									Quint.easeInOut  (same as Power4.easeInOut),
+									Quint.easeOut  (same as Power4.easeOut),
+									Strong.easeIn  (same as Power4.easeIn),
+									Strong.easeInOut  (same as Power4.easeInOut),
+									Strong.easeOut  (same as Power4.easeOut),
+									Back.easeIn,
+									Back.easeInOut,
+									Back.easeOut,
+									Bounce.easeIn,
+									Bounce.easeInOut,
+									Bounce.easeOut,
+									Circ.easeIn,
+									Circ.easeInOut,
+									Circ.easeOut,
+									Elastic.easeIn,
+									Elastic.easeInOut,
+									Elastic.easeOut,
+									Expo.easeIn,
+									Expo.easeInOut,
+									Expo.easeOut,
+									Sine.easeIn,
+									Sine.easeInOut,
+									Sine.easeOut,
+									SlowMo.ease
+
+
+- feature: added any meta key replace: [showbiz_meta:metakey]
+- feature: added easing
+
+version 1.1.9 - 26.08.2013
+
+- bug fix: fixed slide ordering on specific posts mode
+-additoin: added option: enable woocommerce output for the output of woocommerce enable / disable
+
+version 1.1.8 - 3.08.2013
+
+-but fix: made some modifications for wp3.6
+
+version 1.1.7 - 27.07.2013
+
+-bug fix: added a Biz ending to the wpoocommerce class for compatability to the further themepunch products.
+-bug fix: normalized widget output.
+
+version 1.1.6 - 19.07.2013
+
+-bug fix: removed the unclosing <strong> tag from the excerpt.
+
+version 1.1.5 - 13.07.2013
+
+- big fix: slide image in slide view didn't saved
+
+version 1.1.4 - 12.07.2013
+
+- bug fix: The left button goes back by 2 not 1.  (Thanks for finding and Fixing Bug from Customer fool)
+- bug fix: When using rewindFromEnd:”on”, the rewind to 0 occurs 1 slide before the very last slide (Thanks for finding and Fixing Bug from Customer fool)
+
+
+version 1.1.3 - 27.06.2013
+
+- bug fix: get number of specific posts was limited by wordpress setting.
+- bug fix: if excerpt is 0 chars, don't add 3 dots (...)
+- bug fix: moved fancybox include after jquery include
+
+version 1.1.2 - 26.06.2013
+
+- bug fix: too many elements in the row broke the item. This issue has been fixed and test with 100 elements in row.
+
+version 1.1.1- 20/6/13
+
+-bug fix: fixed some bug in getting text from the editor in gallery slide view
+
+version 1.1 - 18/6/13
+
+-support: jQuery 1.10.x and 2.x support added
+-bug fix: added fancybox to the include scripts to body body includes
+-change: removed showbiz plugins include, left only showbiz.js
+
+version 1.0.9 - 10/6/13
+
+-bug fix: fixed some strct mysql rule for adding templates
+
+version 1.0.8 - 6/6/13
+
+- bug fix: changed widget name so it won't conflict with revslider
+
+version 1.0.7 - 29/5/13
+
+- bug fix: when selected small image from the gallery slide was js error.
+
+version 1.0.6
+
+-bug fix: changed the categories list get function.
+-bug fix: Carousel breaks under n+2 items. In case needed, entries are cloned
+
+version 1.0.5
+
+- set the showbiz to work on multisite wp editions.
+- bug fix: added strip tags for excerpt in gallery mode.
+
+version 1.0.4
+
+- feature: added new WC ShowCase Skin
+- bug fix: disabled annoying selection on navigation buttons
+- bug fix: fixed the excerpt get function.
+- change: removed the stuck function option from the slider settings.
+- change: changed bg color of skins, and fixed some css in modern skin
+- bug fix: repaired Vimeo Video Alert Failure
+
+
+version 1.0.3
+
+- bug fix: updated permalink as in wp format.
+- feature: added option: disable stuck functions to troubleshooting section.
+
+version 1.0.2
+
+- feature: added woocommerce as source type selection with filters and sort types.
+
+version 1.0.1
+
+
+- feature: added navigation position option (top,bottom)
+- feature: added new options: "Rewind From End",  "Auto Play", "Delay", "Speed"
+- feature: added a "play" button to the navigation templates.
+- feature: added option to show specific posts
+- feature: added option to update the templates from files on update plugin.
+- feature: added integration button to WooCommerce. added 3 buttons: "regular price", "sale price" and "stock".
+- feature: added woocommerce rating button and categories list.
+
+- bug fix: changed Title Links of Templates from "#" to showbiz Post link
+- bug fix: Modern Template "Read More" is not available.
+- bug fix: ShowCase Skin Hover without Reveal was not Available
+- bug fix: fixed the activation error bug
+- bug fix: fixed the excerpt retrievement
+- bug fix: fixed getting data from pages pos type without categories.
+- bug fix: fixed failure when categories with ' character stopped the backend to work.
+
+version 1.0
+
+first release

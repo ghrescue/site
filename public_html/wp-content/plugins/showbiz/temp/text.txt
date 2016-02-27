@@ -1,0 +1,50 @@
+<option value="Linear.easeNone" text="None"></option>
+<option value="Power0.easeIn" text="Power0.easeIn (linear)"></option>
+<option value="Power0.easeInOut" text="Power0.easeInOut (linear)"></option>
+<option value="Power0.easeOut" text="Power0.easeOut (linear)"></option>
+<option value="Power1.easeIn" text="Power1.easeIn"></option>
+<option value="Power1.easeInOut" text="Power1.easeInOut"></option>
+<option value="Power1.easeOut" text="Power1.easeOut"></option>
+<option value="Power2.easeIn" text="Power2.easeIn"></option>
+<option value="Power2.easeInOut" text="Power2.easeInOut"></option>
+<option value="Power2.easeOut" text="Power2.easeOut"></option>
+<option value="Power3.easeIn" text="Power3.easeIn"></option>
+<option value="Power3.easeInOut" text="Power3.easeInOut"></option>
+<option value="Power3.easeOut" text="Power3.easeOut"></option>
+<option value="Power4.easeIn" text="Power4.easeIn"></option>
+<option value="Power4.easeInOut" text="Power4.easeInOut"></option>
+<option value="Power4.easeOut" text="Power4.easeOut"></option>
+<option value="Quad.easeIn" text="Quad.easeIn (same as Power1.easeIn)"></option>
+<option value="Quad.easeInOut" text="Quad.easeInOut (same as Power1.easeInOut)"></option>
+<option value="Quad.easeOut" text="Quad.easeOut (same as Power1.easeOut)"></option>
+<option value="Cubic.easeIn" text="Cubic.easeIn (same as Power2.easeIn)"></option>
+<option value="Cubic.easeInOut" text="Cubic.easeInOut (same as Power2.easeInOut)"></option>
+<option value="Cubic.easeOut" text="Cubic.easeOut (same as Power2.easeOut)"></option>
+<option value="Quart.easeIn" text="Quart.easeIn (same as Power3.easeIn)"></option>
+<option value="Quart.easeInOut" text="Quart.easeInOut (same as Power3.easeInOut)"></option>
+<option value="Quart.easeOut" text="Quart.easeOut (same as Power3.easeOut)"></option>
+<option value="Quint.easeIn" text="Quint.easeIn (same as Power4.easeIn)"></option>
+<option value="Quint.easeInOut" text="Quint.easeInOut (same as Power4.easeInOut)"></option>
+<option value="Quint.easeOut" text="Quint.easeOut (same as Power4.easeOut)"></option>
+<option value="Strong.easeIn" text="Strong.easeIn (same as Power4.easeIn)"></option>
+<option value="Strong.easeInOut" text="Strong.easeInOut (same as Power4.easeInOut)"></option>
+<option value="Strong.easeOut" text="Strong.easeOut (same as Power4.easeOut)"></option>
+<option value="Back.easeIn" text="Back.easeIn"></option>
+<option value="Back.easeInOut" text="Back.easeInOut"></option>
+<option value="Back.easeOut" text="Back.easeOut"></option>
+<option value="Bounce.easeIn" text="Bounce.easeIn"></option>
+<option value="Bounce.easeInOut" text="Bounce.easeInOut"></option>
+<option value="Bounce.easeOut" text="Bounce.easeOut"></option>
+<option value="Circ.easeIn" text="Circ.easeIn"></option>
+<option value="Circ.easeInOut" text="Circ.easeInOut"></option>
+<option value="Circ.easeOut" text="Circ.easeOut"></option>
+<option value="Elastic.easeIn" text="Elastic.easeIn"></option>
+<option value="Elastic.easeInOut" text="Elastic.easeInOut"></option>
+<option value="Elastic.easeOut" text="Elastic.easeOut"></option>
+<option value="Expo.easeIn" text="Expo.easeIn"></option>
+<option value="Expo.easeInOut" text="Expo.easeInOut"></option>
+<option value="Expo.easeOut" text="Expo.easeOut"></option>
+<option value="Sine.easeIn" text="Sine.easeIn"></option>
+<option value="Sine.easeInOut" text="Sine.easeInOut"></option>
+<option value="Sine.easeOut" text="Sine.easeOut"></option>
+<option value="SlowMo.ease" text="SlowMo.ease"></option>

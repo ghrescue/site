@@ -1,0 +1,6 @@
+[11-May-2015 19:34:34 Europe/London] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[11-May-2015 19:34:34 Europe/London] PHP Fatal error:  Unknown: Failed opening required '/home/ghrescue/public_html/wp-includes/wp-drastic.php' (include_path='.:/opt/alt/php53/usr/share/pear:/opt/alt/php53/usr/share/php') in Unknown on line 0
+[14-May-2015 05:21:56 Europe/London] PHP Fatal error:  Call to undefined function feed_content_type() in /home/ghrescue/public_html/wp-includes/feed-rss.php on line 8
+[14-May-2015 15:56:55 Europe/London] PHP Fatal error:  Call to undefined function feed_content_type() in /home/ghrescue/public_html/wp-includes/feed-rss.php on line 8
+[15-May-2015 13:33:06 Europe/London] PHP Fatal error:  Call to undefined function feed_content_type() in /home/ghrescue/public_html/wp-includes/feed-rss.php on line 8
+[16-May-2015 20:24:37 Europe/London] PHP Fatal error:  Call to undefined function feed_content_type() in /home/ghrescue/public_html/wp-includes/feed-rss.php on line 8

@@ -1,0 +1,45 @@
+/* IE 8 Only Fixes
+================================================== */
+
+.mainmenu .before { display: none; visibility: hidden; }
+.fourcol .entry	{	width: 237px;}
+.portfolio { width: 950px; }
+
+.whitebackground, .footerwrap, .subfooterwrap, .headertopwrap, .boxedlayout .headerwrap { width: 1000px; margin-left: -500px; left: 50%; }
+.footerwrap.wide .footer, .subfooterwrap, .subfooterwrap.wide .subfooter, .headertopwrap.wide .headertop { width: 940px; }
+	
+.subfooterwrap.wide, .subfooterwrap  { width: 940px; left: 50%; margin-left: -470px; }
+.subfooterwrap.wide .subfooter, .subfooterwrap .subfooter { margin: 0 auto; width: 940px; }
+
+.pagetitle { width: 940px; }
+.pagetitlewrap.boxed { width: 1000px; left: 0; margin-left: -30px; }
+
+.headerwrap { width: 100%;  }
+.header { width: 940px; left: 50%; margin-left: -470px; }
+
+.allwrapper { width: 940px; }
+.fullwidthlayout .allwrapper {	background: #FFF; width: 100%; padding: 0; margin-left: 0;}
+.allwrapper.boxed { background: #FFF; width: 940px; padding: 0px 30px; margin: auto; }
+.allwrapper.wide {	background: #FFF; width: 100%; padding: 0; margin-left: 0;}
+
+/* THEMETASTIC CAPTIONS */
+
+.tp-caption.fat_small_white{
+			background-color: #fff;	
+		}
+.tp-caption.fat_small_black{
+			background-color: #000;	
+		}
+.tp-caption.fat_medium_black{
+			background-color: #000;	
+		}
+.tp-caption.fat_medium_white{	
+			background-color: #fff;	
+		}
+.tp-caption.fat_black{
+			background-color: #000;	
+		}
+.tp-caption.fat_white{ 
+			background-color: #fff;	
+		}
+.tp-bullets { display: none; }

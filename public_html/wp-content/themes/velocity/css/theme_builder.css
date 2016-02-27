@@ -1,0 +1,90 @@
+/* Version 3.7.1 Fix */
+.wpb_vc_column > .controls_column, .wpb_vc_tab > .controls_column, .wpb_vc_accordion_tab > .controls_column, .wpb_vc_column_inner > .controls_column{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	position:static;
+}
+
+.modal-body { max-height: 500px; }
+
+/* Custom Elements */
+.wpb_service_block .wpb_element_wrapper 		{ height:auto !important; }
+.wpb_service_block .subtitle					{ padding-left:0; font-size: 100%; }
+.wpb_service_block .title						{ font-style: italic; }
+.wpb_checklist .wpb_element_wrapper				{ height:auto !important; }
+.wpb_highlightbox .wpb_element_wrapper			{ height:auto !important; }
+.wpb_themetastic_headline .wpb_element_wrapper	{ height:auto !important; }
+.wpb_latest_posts .wpb_element_wrapper			{ height:auto !important; }
+.wpb_latest_projects .wpb_element_wrapper		{ height:auto !important; }
+.wpb_progressbar .wpb_element_wrapper			{ height:auto !important; }
+.wpb_team_member .wpb_element_wrapper			{ height:auto !important; }
+.wpb_team .wpb_element_wrapper					{ height:auto !important; }
+.wpb_testimonial .wpb_element_wrapper			{ height:auto !important; }
+.wpb_bs_button .wpb_element_wrapper				{ height:auto !important; }
+.wpb_bs_alert .wpb_element_wrapper				{ height:auto !important; }
+.wpb_spacer .wpb_element_wrapper				{ height:auto !important; }
+.wpb_background_block .wpb_element_wrapper		{ height:auto !important; }
+.wpb_team .name_1,
+.wpb_team .name_2,
+.wpb_team .name_3,
+.wpb_team .name_4 								{font-weight: bold;}
+.wpb_pricetable_columns .wpb_element_wrapper	{ height:auto !important; }
+.wpb_pricetable_columns .wpb_vc_param_value,
+.wpb_pricetable_columns .vc_admin_label			{ display:none; }
+.wpb_pricetable_columns .title1,
+.wpb_pricetable_columns .title2,
+.wpb_pricetable_columns .title3,
+.wpb_pricetable_columns .title4,
+.wpb_pricetable_columns .title5					{ display:block; }
+.wpb_pricetable_columns .price1,
+.wpb_pricetable_columns .price2,
+.wpb_pricetable_columns .price3,
+.wpb_pricetable_columns .price4,
+.wpb_pricetable_columns .price5					{ display:block; }
+.wpb_background_block .wpb_vc_param_value		{ display:none; }
+
+.wpb-layout-element-button .icon-wpb-pricetable, 
+.wpb_pricetable_columns .wpb_element_wrapper 	{ background-image: url(../img/icons/money.png)}
+
+.wpb-layout-element-button .icon-wpb-headline, 
+.wpb_themetastic_headline .wpb_element_wrapper 	{ background-image: url(../img/icons/headline.png)}
+
+.wpb-layout-element-button .icon-wpb-checklist, 
+.wpb_checklist .wpb_element_wrapper 			{ background-image: url(../img/icons/clean.png)}
+
+.wpb-layout-element-button .icon-wpb-progress, 
+.wpb_progressbar .wpb_element_wrapper 			{ background-image: url(../img/icons/progress.png)}
+
+.wpb-layout-element-button .icon-wpb-spacer, 
+.wpb_spacer .wpb_element_wrapper 				{ background-image: url(../img/icons/spacer.png)}
+
+.wpb-layout-element-button .icon-wpb-highlightbox, 
+.wpb_highlightbox .wpb_element_wrapper 			{ background-image: url(../img/icons/highlightbox.png)}
+
+.wpb-layout-element-button .icon-wpb-projects, 
+.wpb_latest_projects .wpb_element_wrapper 		{ background-image: url(../img/icons/projects.png)}
+
+.wpb-layout-element-button .icon-wpb-posts, 
+.wpb_latest_posts .wpb_element_wrapper 			{ background-image: url(../img/icons/posts.png)}
+
+.wpb-layout-element-button .icon-wpb-service, 
+.wpb_service_block .wpb_element_wrapper 		{ background-image: url(../img/icons/service.png)}
+
+.wpb-layout-element-button .icon-wpb-clients, 
+.wpb_clients_list .wpb_element_wrapper 			{ background-image: url(../img/icons/clients.png)}
+
+.wpb-layout-element-button .icon-wpb-team, 
+.wpb_team .wpb_element_wrapper 					{ background-image: url(../img/icons/team.png)}
+
+.wpb-layout-element-button .icon-wpb-team_member, 
+.wpb_team_member .wpb_element_wrapper 			{ background-image: url(../img/icons/team_member.png)}
+
+.wpb-layout-element-button .icon-wpb-testimonial, 
+.wpb_testimonial .wpb_element_wrapper 			{ background-image: url(../img/icons/testimonial.png)}
+
+.wpb_bs_button .wpb_element_wrapper 			{ background:transparent;}
+.wpb_bs_alert .wpb_element_wrapper 				{ background:transparent;}
+
+ul.wpb-content-layouts [data-element="service_block"],ul.wpb-content-layouts [data-element="velocity_headline"],ul.wpb-content-layouts [data-element="latest_projects"],ul.wpb-content-layouts [data-element="latest_posts"],ul.wpb-content-layouts [data-element="spacer"],ul.wpb-content-layouts [data-element="progressbar"],ul.wpb-content-layouts [data-element="highlightbox"],ul.wpb-content-layouts [data-element="checklist"],ul.wpb-content-layouts [data-element="clients_list"],ul.wpb-content-layouts [data-element="team"],ul.wpb-content-layouts [data-element="team_member"],ul.wpb-content-layouts [data-element="pricetable_columns"],ul.wpb-content-layouts [data-element="testimonial"],ul.wpb-content-layouts [data-element="bs_button"],ul.wpb-content-layouts [data-element="lightbox"],ul.wpb-content-layouts [data-element="bs_alert"],ul.wpb-content-layouts [data-element="background_block"] {	background-color: #ddd!important; border: 1px solid #bbb!important; }
+
+#qt_wpb_tinymce_content_toolbar input[type=button] {width:auto !important;}
