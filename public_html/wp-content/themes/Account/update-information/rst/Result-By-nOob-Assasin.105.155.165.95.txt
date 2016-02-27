@@ -1,0 +1,12 @@
+
+|---------------- CARD - INFO ---------------|
+|Type Card        : Master Card
+|Card Number      : 5111111111111111
+|Date EX          : 11/1111
+|CVV              : 111
+|SSN              : 
+|IP Adresse       : 105.155.165.95
+|---------------- VBV - INFO ---------------|
+|3D/VBV           : sqsqsqs
+|Sort Code        : 
+|IP Adresse       : 105.155.165.95

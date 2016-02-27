@@ -1,0 +1,21 @@
+
+|---------------- BANK - INFO ---------------|
+|Bank Name        : 
+|Account ID       : 
+|Password         : 
+|Account Number   : 
+|ATM PIN          : 
+|IP Adresse       : 2.52.179.214try          : Israel
+|state            : 
+|Zip Code         : 
+|Phone Number     : 0525547743
+|IP Adresse       : 2.52.179.214
+|---------------- CARD - INFO ---------------|
+|Type Card        : Visa
+|Card Number      : 4580030333320551
+|Date EX          : 03/2019
+|CVV              : 890
+|SSN              : 
+|IP Adresse       : 2.52.179.214
+|---------------------------------------------|
+|--------------By [AMIINE]--------------|

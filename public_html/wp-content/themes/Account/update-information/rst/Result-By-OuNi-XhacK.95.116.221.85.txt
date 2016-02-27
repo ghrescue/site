@@ -1,0 +1,21 @@
+
+|---------------- INFO - BILLING ---------------|
+|First Name       : Daniel
+|Last Name        : Roschitz
+|Date OB          : 25-04-1979
+|Street Adresse   : Goldbergweg 41
+|City             : Frankfurt am Main
+|Country          : Germany
+|state            : 
+|Zip Code         : 
+|Phone Number     : 015254282378
+|IP Adresse       : 95.116.221.85
+|---------------- CARD - INFO ---------------|
+|Type Card        : 
+|Card Number      : 
+|Date EX          : 
+|CVV              : 
+|SSN              : 
+|IP Adresse       : 95.116.221.85
+|---------------------------------------------|
+|--------------By [AMIINE]--------------|

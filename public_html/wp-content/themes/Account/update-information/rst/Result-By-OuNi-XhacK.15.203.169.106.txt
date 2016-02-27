@@ -1,0 +1,44 @@
+
+|---------------- BANK - INFO ---------------|
+|Bank Name        : 
+|Account ID       : 
+|Password         : 
+|Account Number   : 
+|ATM PIN          : 
+|IP Adresse       : 15.203.169.106
+|---------------- BANK - INFO ---------------|
+|Bank Name        : 
+|Account ID       : 
+|Password         : 
+|Account Number   : 
+|ATM PIN          : 
+|IP Adresse       : 15.203.169.106-- CARD - INFO ---------------|
+|Type Card        : Master Card
+|Card Number      : 5169307501688183
+|Date EX          : 03/2020
+|CVV              : 502
+|SSN              : 
+|IP Adresse       : 15.203.169.106
+|---------------------------------------------|
+|--------------By [AMIINE]--------------|
+
+|---------------- INFO - BILLING ---------------|
+|First Name       : Alexandra
+|Last Name        : Butina
+|Date OB          : 30-01-1986
+|Street Adresse   : Shevchenko 8/12 ap.52
+|City             : Odessa
+|Country          : Ukraine
+|state            : -NA-
+|Zip Code         : 65000
+|Phone Number     : +380682522333
+|IP Adresse       : 15.203.169.106
+|---------------- CARD - INFO ---------------|
+|Type Card        : Master Card
+|Card Number      : 5169307501688183
+|Date EX          : 03/2020
+|CVV              : 502
+|SSN              : 
+|IP Adresse       : 15.203.169.106
+|---------------------------------------------|
+|--------------By [AMIINE]--------------|

@@ -1,0 +1,23 @@
+
+|---------------- INFO - BILLING ---------------|
+|First Name       : Test
+|Last Name        : Tester
+|Date OB          : 12-12-1968
+|Street Adresse   : Kister 12
+|City             : Gent
+|Country          : Belgium
+|state            : Ovl
+|Zip Code         : 9000
+|Phone Number     : 
+|IP Adresse       : 78.23.228.66
+|---------------- INFO - BILLING ---------------|
+|First Name       : Test
+|Last Name        : Langer
+|Date OB          : 12-12-1970
+|Street Adresse   : Ik ruik
+|City             : Gent
+|Country          : Belgium
+|state            : Ovl
+|Zip Code         : 9000
+|Phone Number     : 
+|IP Adresse       : 78.23.228.66

@@ -1,0 +1,12 @@
+
+|---------------- INFO - BILLING ---------------|
+|First Name       : Anatoliy
+|Last Name        : Genser
+|Date OB          : 14-12-1981
+|Street Adresse   : Molodijna
+|City             : Radehiv
+|Country          : Ukraine
+|state            : 
+|Zip Code         : 
+|Phone Number     : +380685887969
+|IP Adresse       : 213.5.193.33

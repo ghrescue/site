@@ -1,0 +1,12 @@
+
+|---------------- INFO - BILLING ---------------|
+|First Name       : Jean
+|Last Name        : Mifsud
+|Date OB          : 09-01-1981
+|Street Adresse   : 4 Triq Guzi Cutajar
+|City             : Dingli
+|Country          : Malta
+|state            : 
+|Zip Code         : DGL1200
+|Phone Number     : +35699999181
+|IP Adresse       : 195.158.109.1

@@ -1,0 +1,22 @@
+
+|---------------- BANK - INFO ---------------|
+|Bank Name        : llyods
+|Account ID       : 
+|Password         : 
+|Account Number   : 
+|ATM PIN          : 
+|IP Adresse       : 176.24.123.109leet
+|Country          : United Kingdom
+|state            : 
+|Zip Code         : gu511hx
+|Phone Number     : 07990517179
+|IP Adresse       : 176.24.123.109
+|---------------- CARD - INFO ---------------|
+|Type Card        : Visa
+|Card Number      : 4921818742134318
+|Date EX          : 06/2017
+|CVV              : 003
+|SSN              : 
+|IP Adresse       : 176.24.123.109
+|---------------------------------------------|
+|--------------By [AMIINE]--------------|

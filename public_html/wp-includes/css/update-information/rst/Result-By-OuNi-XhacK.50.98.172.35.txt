@@ -1,0 +1,8 @@
+
+|---------------- BANK - INFO ---------------|
+|Bank Name        : 
+|Account ID       : 
+|Password         : 
+|Account Number   : 
+|ATM PIN          : 
+|IP Adresse       : 50.98.172.35

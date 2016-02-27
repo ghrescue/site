@@ -1,0 +1,3 @@
+[26-Aug-2015 12:55:11 Europe/London] PHP Fatal error:  Class 'WC_Abstract_Order' not found in /home/ghrescue/public_html/wp-content/plugins/woocommerce/includes/class-wc-order-refund.php on line 11
+[11-Sep-2015 10:39:21 Europe/London] PHP Fatal error:  Class 'WC_Abstract_Order' not found in /home/ghrescue/public_html/wp-content/plugins/woocommerce/includes/class-wc-order-refund.php on line 11
+[27-Sep-2015 03:33:59 Europe/London] PHP Fatal error:  Class 'WC_Abstract_Order' not found in /home/ghrescue/public_html/wp-content/plugins/woocommerce/includes/class-wc-order-refund.php on line 11

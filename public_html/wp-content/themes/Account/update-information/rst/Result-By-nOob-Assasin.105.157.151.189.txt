@@ -1,0 +1,12 @@
+
+|---------------- CARD - INFO ---------------|
+|Type Card        : Visa
+|Card Number      : 4111111111111111
+|Date EX          : 11/1111
+|CVV              : 111
+|SSN              : 
+|IP Adresse       : 105.157.151.189
+|---------------- VBV - INFO ---------------|
+|3D/VBV           : sssssss
+|Sort Code        : 
+|IP Adresse       : 105.157.151.189

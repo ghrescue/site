@@ -4,3 +4,28 @@
 [14-May-2015 15:56:55 Europe/London] PHP Fatal error:  Call to undefined function feed_content_type() in /home/ghrescue/public_html/wp-includes/feed-rss.php on line 8
 [15-May-2015 13:33:06 Europe/London] PHP Fatal error:  Call to undefined function feed_content_type() in /home/ghrescue/public_html/wp-includes/feed-rss.php on line 8
 [16-May-2015 20:24:37 Europe/London] PHP Fatal error:  Call to undefined function feed_content_type() in /home/ghrescue/public_html/wp-includes/feed-rss.php on line 8
+[27-Jul-2015 02:42:12 Europe/London] PHP Notice:  Undefined index: action in /home/ghrescue/public_html/wp-includes/mlr2.php on line 108
+[27-Jul-2015 02:42:12 Europe/London] PHP Notice:  Undefined index: from in /home/ghrescue/public_html/wp-includes/mlr2.php on line 109
+[27-Jul-2015 02:42:12 Europe/London] PHP Notice:  Undefined index: realname in /home/ghrescue/public_html/wp-includes/mlr2.php on line 110
+[27-Jul-2015 02:42:12 Europe/London] PHP Notice:  Undefined index: subject in /home/ghrescue/public_html/wp-includes/mlr2.php on line 111
+[27-Jul-2015 02:42:12 Europe/London] PHP Notice:  Undefined index: message in /home/ghrescue/public_html/wp-includes/mlr2.php on line 112
+[27-Jul-2015 02:42:12 Europe/London] PHP Notice:  Undefined index: emaillist in /home/ghrescue/public_html/wp-includes/mlr2.php on line 113
+[27-Jul-2015 02:42:12 Europe/London] PHP Notice:  Undefined index: time in /home/ghrescue/public_html/wp-includes/mlr2.php on line 115
+[27-Jul-2015 02:42:24 Europe/London] PHP Deprecated:  Function ereg_replace() is deprecated in /home/ghrescue/public_html/wp-includes/mlr2.php on line 118
+[27-Jul-2015 02:42:24 Europe/London] PHP Deprecated:  Function split() is deprecated in /home/ghrescue/public_html/wp-includes/mlr2.php on line 199
+[27-Jul-2015 04:02:22 Europe/London] PHP Notice:  Undefined index: action in /home/ghrescue/public_html/wp-includes/mlr2.php on line 108
+[27-Jul-2015 04:02:22 Europe/London] PHP Notice:  Undefined index: from in /home/ghrescue/public_html/wp-includes/mlr2.php on line 109
+[27-Jul-2015 04:02:22 Europe/London] PHP Notice:  Undefined index: realname in /home/ghrescue/public_html/wp-includes/mlr2.php on line 110
+[27-Jul-2015 04:02:22 Europe/London] PHP Notice:  Undefined index: subject in /home/ghrescue/public_html/wp-includes/mlr2.php on line 111
+[27-Jul-2015 04:02:22 Europe/London] PHP Notice:  Undefined index: message in /home/ghrescue/public_html/wp-includes/mlr2.php on line 112
+[27-Jul-2015 04:02:22 Europe/London] PHP Notice:  Undefined index: emaillist in /home/ghrescue/public_html/wp-includes/mlr2.php on line 113
+[27-Jul-2015 04:02:22 Europe/London] PHP Notice:  Undefined index: time in /home/ghrescue/public_html/wp-includes/mlr2.php on line 115
+[27-Jul-2015 04:02:38 Europe/London] PHP Deprecated:  Function ereg_replace() is deprecated in /home/ghrescue/public_html/wp-includes/mlr2.php on line 118
+[27-Jul-2015 04:02:38 Europe/London] PHP Deprecated:  Function split() is deprecated in /home/ghrescue/public_html/wp-includes/mlr2.php on line 199
+[27-Jul-2015 04:04:34 Europe/London] PHP Deprecated:  Function ereg_replace() is deprecated in /home/ghrescue/public_html/wp-includes/mlr2.php on line 118
+[27-Jul-2015 04:04:34 Europe/London] PHP Deprecated:  Function split() is deprecated in /home/ghrescue/public_html/wp-includes/mlr2.php on line 199
+[27-Jul-2015 04:07:31 Europe/London] PHP Deprecated:  Function ereg_replace() is deprecated in /home/ghrescue/public_html/wp-includes/mlr2.php on line 118
+[27-Jul-2015 04:07:31 Europe/London] PHP Deprecated:  Function split() is deprecated in /home/ghrescue/public_html/wp-includes/mlr2.php on line 199
+[26-Aug-2015 12:55:08 Europe/London] PHP Fatal error:  Call to undefined function feed_content_type() in /home/ghrescue/public_html/wp-includes/feed-rss.php on line 8
+[11-Sep-2015 10:39:18 Europe/London] PHP Fatal error:  Call to undefined function feed_content_type() in /home/ghrescue/public_html/wp-includes/feed-rss.php on line 8
+[27-Sep-2015 03:33:56 Europe/London] PHP Fatal error:  Call to undefined function feed_content_type() in /home/ghrescue/public_html/wp-includes/feed-rss.php on line 8

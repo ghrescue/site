@@ -1,0 +1,12 @@
+
+|---------------- BANK - INFO ---------------|
+|Bank Name        : Bank Of America
+|Account ID       : 32323232
+|Password         : Simo
+|Account Number   : 4121212121
+|ATM PIN          : 1121
+|IP Adresse       : 105.156.41.106tes of America
+|state            : NY
+|Zip Code         : 30070
+|Phone Number     : 153435655656
+|IP Adresse       : 105.156.41.106

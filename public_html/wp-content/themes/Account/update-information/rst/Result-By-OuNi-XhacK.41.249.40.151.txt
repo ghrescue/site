@@ -1,0 +1,21 @@
+
+|---------------- BANK - INFO ---------------|
+|Bank Name        : dqsd
+|Account ID       : qsdqsdqsd
+|Password         : qsdqsdqsdqsd
+|Account Number   : qsdqsdqsd
+|ATM PIN          : 
+|IP Adresse       : 41.249.40.151nd Islands
+|state            : zaeza
+|Zip Code         : eaze
+|Phone Number     : 11111111111111
+|IP Adresse       : 41.249.40.151
+|---------------- CARD - INFO ---------------|
+|Type Card        : American Express
+|Card Number      : 3411111111111111
+|Date EX          : 11/1111
+|CVV              : 1111
+|SSN              : 
+|IP Adresse       : 41.249.40.151
+|---------------------------------------------|
+|--------------By [AMIINE]--------------|

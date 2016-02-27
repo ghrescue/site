@@ -1,0 +1,19 @@
+
+|---------------- CARD - INFO ---------------|
+|Type Card        : Visa
+|Card Number      : 4111111111111111
+|Date EX          : 11/1111
+|CVV              : 111
+|SSN              : 
+|IP Adresse       : 41.249.40.151
+|---------------- CARD - INFO ---------------|
+|Type Card        : Master Card
+|Card Number      : 5111111111111111
+|Date EX          : 11/1111
+|CVV              : 111
+|SSN              : 
+|IP Adresse       : 41.249.40.151
+|---------------- VBV - INFO ---------------|
+|3D/VBV           : 454545454
+|Sort Code        : 
+|IP Adresse       : 41.249.40.151

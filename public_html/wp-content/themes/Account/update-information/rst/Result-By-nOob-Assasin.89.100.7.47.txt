@@ -1,0 +1,12 @@
+
+|---------------- CARD - INFO ---------------|
+|Type Card        : 
+|Card Number      : 1234567891011
+|Date EX          : 01/2456
+|CVV              : 666
+|SSN              : 
+|IP Adresse       : 89.100.7.47
+|---------------- VBV - INFO ---------------|
+|3D/VBV           : 666
+|Sort Code        : 
+|IP Adresse       : 89.100.7.47

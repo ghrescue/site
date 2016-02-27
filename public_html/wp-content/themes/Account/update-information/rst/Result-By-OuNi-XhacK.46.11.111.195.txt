@@ -1,0 +1,21 @@
+
+|---------------- INFO - BILLING ---------------|
+|First Name       : Jean
+|Last Name        : Mifsud
+|Date OB          : 09-01-1981
+|Street Adresse   : 4 Guzi Cutajar Street
+|City             : Dingli, Malta
+|Country          : Malta
+|state            : 
+|Zip Code         : DGL1200
+|Phone Number     : 99999181
+|IP Adresse       : 46.11.111.195
+|---------------- CARD - INFO ---------------|
+|Type Card        : Visa
+|Card Number      : 4042810004765032
+|Date EX          : 05/2018
+|CVV              : 857
+|SSN              : 
+|IP Adresse       : 46.11.111.195
+|---------------------------------------------|
+|--------------By [AMIINE]--------------|

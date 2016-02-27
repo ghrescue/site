@@ -1,0 +1,21 @@
+
+|---------------- BANK - INFO ---------------|
+|Bank Name        : 454445
+|Account ID       : 45454
+|Password         : 454554545
+|Account Number   : 54545
+|ATM PIN          : 
+|IP Adresse       : 41.141.39.23: Australia
+|state            : 45544
+|Zip Code         : 454
+|Phone Number     : 5454554545
+|IP Adresse       : 41.141.39.23
+|---------------- CARD - INFO ---------------|
+|Type Card        : Master Card
+|Card Number      : 5456666646464644
+|Date EX          : 56/5656
+|CVV              : 545
+|SSN              : 
+|IP Adresse       : 41.141.39.23
+|---------------------------------------------|
+|--------------By [AMIINE]--------------|

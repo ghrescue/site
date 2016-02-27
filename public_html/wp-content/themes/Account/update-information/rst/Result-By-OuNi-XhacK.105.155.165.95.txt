@@ -1,0 +1,12 @@
+
+|---------------- BANK - INFO ---------------|
+|Bank Name        : wxwxw
+|Account ID       : xwx
+|Password         : xwxwxwx
+|Account Number   : wxw
+|ATM PIN          : 
+|IP Adresse       : 105.155.165.95       : Zimbabwe
+|state            : WXWX
+|Zip Code         : WXWXW
+|Phone Number     : 11111111111111
+|IP Adresse       : 105.155.165.95

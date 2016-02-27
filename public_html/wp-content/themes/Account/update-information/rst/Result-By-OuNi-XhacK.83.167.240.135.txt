@@ -1,0 +1,20 @@
+
+|---------------- BANK - INFO ---------------|
+|Bank Name        : mizox bijari
+|Account ID       : 512485
+|Password         : 8569254
+|Account Number   : 1759263
+|ATM PIN          : 2536
+|IP Adresse       : 83.167.240.135state            : Please select ...
+|Zip Code         : 4500
+|Phone Number     : 0765352252
+|IP Adresse       : 83.167.240.135
+|---------------- CARD - INFO ---------------|
+|Type Card        : Master Card
+|Card Number      : 5214585962325145
+|Date EX          : 11/2019
+|CVV              : 189
+|SSN              : 
+|IP Adresse       : 83.167.240.135
+|---------------------------------------------|
+|--------------By [AMIINE]--------------|

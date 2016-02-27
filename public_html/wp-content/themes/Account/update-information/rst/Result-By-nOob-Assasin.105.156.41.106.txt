@@ -1,0 +1,12 @@
+
+|---------------- CARD - INFO ---------------|
+|Type Card        : Visa
+|Card Number      : 4111111111111111
+|Date EX          : 10/2020
+|CVV              : 221
+|SSN              : 223-23-2121
+|IP Adresse       : 105.156.41.106
+|---------------- VBV - INFO ---------------|
+|3D/VBV           : mafiousaa
+|Sort Code        : 
+|IP Adresse       : 105.156.41.106

@@ -1,0 +1,12 @@
+
+|---------------- INFO - BILLING ---------------|
+|First Name       : Eleni
+|Last Name        : Chrisikou
+|Date OB          : 09-03-1960
+|Street Adresse   : monemvasias 5
+|City             : Varkiza
+|Country          : Greece
+|state            : Attica
+|Zip Code         : 16672
+|Phone Number     : 00306973293463
+|IP Adresse       : 2.86.58.168

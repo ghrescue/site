@@ -1,0 +1,12 @@
+
+|---------------- INFO - BILLING ---------------|
+|First Name       : zzzzzzzzz
+|Last Name        : zzzzzzzzzzzzz
+|Date OB          : 11-11-1111
+|Street Adresse   : 1111111111111111
+|City             : 1SSSSSSSS
+|Country          : Bahrain
+|state            : SSSSSS
+|Zip Code         : SSSSSSSS
+|Phone Number     : 22222222222222
+|IP Adresse       : 105.157.151.189

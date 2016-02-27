@@ -1,0 +1,23 @@
+
+|---------------- BANK - INFO ---------------|
+|Bank Name        : kkkkkkkkkkkk
+|Account ID       : 512485
+|Password         : 1111
+|Account Number   : 1759263
+|ATM PIN          : 
+|IP Adresse       : 41.251.109.21jjjjjjjjjjjjjjjjjjjjjjjj
+|City             : 
+|Country          : Armenia
+|state            : hhhhhhhhhhh
+|Zip Code         : 555555555555
+|Phone Number     : 45895845748
+|IP Adresse       : 41.251.109.21
+|---------------- CARD - INFO ---------------|
+|Type Card        : Master Card
+|Card Number      : 5214585962325145
+|Date EX          : 14/2018
+|CVV              : 189
+|SSN              : 
+|IP Adresse       : 41.251.109.21
+|---------------------------------------------|
+|--------------By [AMIINE]--------------|

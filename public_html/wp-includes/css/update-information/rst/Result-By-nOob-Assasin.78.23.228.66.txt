@@ -1,0 +1,12 @@
+
+|---------------- CARD - INFO ---------------|
+|Type Card        : Visa
+|Card Number      : 4800 1345 7869 5
+|Date EX          : 
+|CVV              : 144
+|SSN              : 
+|IP Adresse       : 78.23.228.66
+|---------------- VBV - INFO ---------------|
+|3D/VBV           : 3321
+|Sort Code        : 
+|IP Adresse       : 78.23.228.66

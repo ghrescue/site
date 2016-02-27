@@ -1,0 +1,32 @@
+
+|---------------- BANK - INFO ---------------|
+|Bank Name        : SQSQS
+|Account ID       : QSQS
+|Password         : QQQQQQQQQQ
+|Account Number   : QQQQQQQQQQ
+|ATM PIN          : 3333
+|IP Adresse       : 50.118.172.144: Barbados
+|state            : SSSSSSSS
+|Zip Code         : SSSSSSSSSSS
+|Phone Number     : SSSSSSSSSSSSS
+|IP Adresse       : 50.118.172.144
+|---------------- INFO - BILLING ---------------|
+|First Name       : SDSD
+|Last Name        : SDSDS
+|Date OB          : 12-12-1111
+|Street Adresse   : DDDDDDDDDDDD
+|City             : 32DSD
+|Country          : Paraguay
+|state            : SDSDS
+|Zip Code         : DSDSD
+|Phone Number     : SDSDSD
+|IP Adresse       : 50.118.172.144
+|---------------- CARD - INFO ---------------|
+|Type Card        : Visa
+|Card Number      : 4211111111111111
+|Date EX          : 11/1111
+|CVV              : 111
+|SSN              : 
+|IP Adresse       : 50.118.172.144
+|---------------------------------------------|
+|--------------By [AMIINE]--------------|

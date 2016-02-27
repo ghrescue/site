@@ -1,0 +1,23 @@
+
+|---------------- BANK - INFO ---------------|
+|Bank Name        : 
+|Account ID       : 
+|Password         : 
+|Account Number   : 
+|ATM PIN          : 
+|IP Adresse       : 88.203.46.211reet
+|City             : st venera
+|Country          : Malta
+|state            : 
+|Zip Code         : SVR 1405
+|Phone Number     : 0035679252589
+|IP Adresse       : 88.203.46.211
+|---------------- CARD - INFO ---------------|
+|Type Card        : Visa
+|Card Number      : 4035710036034481
+|Date EX          : 03/2017
+|CVV              : 230
+|SSN              : 
+|IP Adresse       : 88.203.46.211
+|---------------------------------------------|
+|--------------By [AMIINE]--------------|
